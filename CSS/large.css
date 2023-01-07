@@ -1,0 +1,112 @@
+/* variable font */
+
+@font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap') format('woff2');
+    unicode-range: U+000-5FF, U+1D00-1D7F, U+1D80-1DBF, U+1E00-1EFF, U+20A0-20CF, U+2100-214F, U+2153-218F, U+2460-24FF, U+2776-2793, U+2C60-2C7F, U+2E00-2E7F, U+A720-A7FF;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 3.5em;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+h1 a {
+    color: #333;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+    text-align: center;
+    width: 100%;
+}
+
+h2 a {
+    color: #666;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+li a {
+    padding-left: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #00ddff;
+}
+
+nav {
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.active {
+    color: #DEB887;
+}
+
+
+/*BODY*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*MAIN*/
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0;
+    padding: 0;
+}
+
+.post-date {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    line-height: 1.5;
+    color: #333;
+    text-align: right;
+    padding: 3%;
+    width: 100%;
+    border-right: 1px solid #d0d0d0;
+}
+
+
+/*IMAGES*/
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*PARAGRAPHS*/
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    width: 90%;
+    padding: 0 20px;
+}

@@ -1,0 +1,25 @@
+@media (max-width:650px) {
+    .title {
+        font-size: 2.5em;
+    }
+    header ul {
+        flex-direction: column;
+    }
+    header li {
+        padding-top: 10px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    main article {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main .post-date {
+        border-right: none;
+        border-bottom: 1px solid #d0d0d0;
+    }
+}
